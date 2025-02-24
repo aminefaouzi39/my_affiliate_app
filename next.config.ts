@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export", // Enables static export
+  basePath: "/my_affiliate_app", // Must match your GitHub repo name
+  assetPrefix: "/my_affiliate_app/",
 };
 
-export default nextConfig;
+module.exports = nextConfig;

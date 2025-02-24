@@ -72,10 +72,11 @@ export default function CustomizedSwitches() {
   return (
     <FormGroup>
       <FormControlLabel
+        label="Switch theme"
         control={
           <MaterialUISwitch
             sx={{ m: 1, transform: "scale(0.8)" }}
-            checked={mounted ? theme === "dark" : false} 
+            checked={mounted ? theme === "dark" : false}
             onChange={() => setTheme(theme === "light" ? "dark" : "light")}
           />
         }
