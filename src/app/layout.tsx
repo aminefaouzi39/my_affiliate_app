@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <meta name="verify-admitad" content="ee0513e4ea" />
       </head>
       <body>
         <Providers> {children}</Providers>
