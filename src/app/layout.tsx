@@ -14,9 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Head>
-        <meta name="verify-admitad" content="952a06ff03" />
-      </Head>
+      <head>
+        <meta name="verify-admitad" content="a5ffc795b5" />
+      </head>
       <body>
         <Providers>{children}</Providers>
       </body>
